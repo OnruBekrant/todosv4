@@ -1,14 +1,14 @@
 import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
 
-const createTask = () => {
+const CreateTask = () => {
   return (
     <View>
-      <Text>create task</Text>
+      <Text>Create task</Text>
     </View>
   )
 }
 
-export default createTask
+export default CreateTask
 
 const styles = StyleSheet.create({})
