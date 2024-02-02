@@ -13,8 +13,8 @@ const Home = () => {
       {
         categories.map(category=><Box py="4" bg='blu500'><Text>{category.name}</Text></Box>)
       }
-      <Pressable onPress={()=>{navigation.navigate("CreateTask")}}>
-        <Text variant='text4Xl' color='green500'>navigate to create task</Text>
+      <Pressable onPress={()=>{navigation.navigate("CreateCategory")}}>
+        <Text variant='text4Xl' color='green500'>navigate to create category</Text>
       </Pressable>
     </View>
   )

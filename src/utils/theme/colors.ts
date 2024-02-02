@@ -1,8 +1,9 @@
-const palette = {
+ export const palette = {
     white: "#ffffff",
     gray50: "#f9fafb",
     gray100: "#f3f4f6",
     gray200: "#e5e7eb",
+    gray500: "#a0aec0",
     gray900:"#111827",
     red500: "#ef4444",
     red600: "#dc2626",
@@ -24,15 +25,26 @@ const palette = {
 }
 export const colors={
     white: palette.white,
+    gray50: palette.gray50,
+    gray100: palette.gray100,
+    gray200: palette.gray200,
+    gray500: palette.gray500,
+    gray900: palette.gray900,    
     red500: palette.red500,
+    red600: palette.red600,
     amber300: palette.amber300,
     amber400: palette.amber400,
     green400: palette.green400,
     green500: palette.green500,
     blu200: palette.blu200,
     blu500: palette.blu500,
+    blu600: palette.blu600,
+    violet500: palette.violet500,
+    violet600: palette.violet600,
     purple500: palette.purple500,
+    purple600: palette.purple600,
     pink500: palette.pink500,
+    pink600: palette.pink600,
     rose400: palette.rose400,
     rose500: palette.rose500,
 }

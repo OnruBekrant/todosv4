@@ -4,7 +4,7 @@ import {create} from "zustand"
 import {createJSONStorage, persist} from "zustand/middleware"
 interface IGlobalStore {
     categories: ICategory[]
-    tasks: []
+    tasks: ITask[]
 }
 const useGlobalStore = create<IGlobalStore>()(persist((set, get) => ({
     categories: [],
